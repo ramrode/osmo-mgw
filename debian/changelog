@@ -1,3 +1,10 @@
+osmo-mgw (1.16.0) unstable; urgency=medium
+
+  [ Mychaela N. Falconia ]
+  * mgcp_client: add fmtp string to struct ptmap
+
+ -- Pau Espin Pedrol <pespin@sysmocom.de>  Thu, 20 Aug 2026 12:48:37 +0200
+
 osmo-mgw (1.15.0) unstable; urgency=medium
 
   [ Pau Espin Pedrol ]
