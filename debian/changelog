@@ -1,3 +1,9 @@
+osmo-mgw (1.16.1) unstable; urgency=medium
+
+  * debian/control: Fix wrong libosmo-abis-dev 2.3.0 dep
+
+ -- Pau Espin Pedrol <pespin@sysmocom.de>  Fri, 21 Aug 2026 10:09:46 +0200
+
 osmo-mgw (1.16.0) unstable; urgency=medium
 
   [ Mychaela N. Falconia ]
