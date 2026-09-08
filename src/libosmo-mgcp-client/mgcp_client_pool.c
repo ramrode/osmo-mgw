@@ -18,7 +18,7 @@
  *
  */
 
-#include <asm-generic/errno.h>
+#include <errno.h>
 #include <osmocom/mgcp_client/mgcp_client.h>
 #include <osmocom/mgcp_client/mgcp_client_internal.h>
 #include <osmocom/mgcp_client/mgcp_client_pool_internal.h>
