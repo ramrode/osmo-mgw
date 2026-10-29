@@ -113,4 +113,14 @@ static inline int mgcp_msg_terminate_nul(struct msgb *msg)
  * at once. */
 #define MGCP_MAX_CODECS 10
 
+/* Themyscira Wireless MGW implementations are asymmetric: in the case of
+ * Hera TC MGW intended for use with OsmoMSC, one side is RAN while the other
+ * side is CN, and the MGW needs to know which side is which.  There may be
+ * a future ThemWi MGW for use with OsmoBSC that will likewise need to know
+ * which side is AoIP and which side is Abis-IP.  These MGWs require a
+ * non-standard X-Side parameter line to be included in CRCX command, e.g.,
+ * "X-Side: RAN" or "X-Side: CN".  Define the maximum allowed length of
+ * side ID string, including the terminating NUL. */
+#define MGCP_SIDE_ID_MAXLEN 16
+
 #endif

@@ -7,3 +7,5 @@
 # If any interfaces have been added since the last public release: c:r:a + 1.
 # If any interfaces have been removed or changed since the last public release: c:r:0.
 #library	what			description / commit summary line
+libosmo-mgcp-client	API addition	mgcp_client_transcoder_wildcard()
+libosmo-mgcp-client	ABI break	struct mgcp_conn_peer extended
